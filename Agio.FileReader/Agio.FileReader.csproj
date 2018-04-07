@@ -53,6 +53,7 @@
     <Compile Include="FileReaderEncryptedXml.cs" />
     <Compile Include="FileReaderJson.cs" />
     <Compile Include="FileReaderSecurized.cs" />
+    <Compile Include="FileReaderSecurizedJson.cs" />
     <Compile Include="FileReaderSecurizedText.cs" />
     <Compile Include="FileReaderSecurizedXml.cs" />
     <Compile Include="FileReaderText.cs" />

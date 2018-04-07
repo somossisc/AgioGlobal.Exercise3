@@ -62,6 +62,7 @@
     <Compile Include="FileReaderSecurizedText_Tests.cs" />
     <Compile Include="FileReaderJson_Tests.cs" />
     <Compile Include="FIleReaderEncryptedJson_Tests.cs" />
+    <Compile Include="FileReaderSecurizedJson_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
