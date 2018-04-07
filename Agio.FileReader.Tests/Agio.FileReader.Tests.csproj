@@ -61,6 +61,7 @@
     <Compile Include="FileReaderEncryptedXml_Tests.cs" />
     <Compile Include="FileReaderSecurizedText_Tests.cs" />
     <Compile Include="FileReaderJson_Tests.cs" />
+    <Compile Include="FIleReaderEncryptedJson_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -68,6 +69,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="SampleFiles\content.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleFiles\contentDecrypted.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleFiles\contentEncrypted.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

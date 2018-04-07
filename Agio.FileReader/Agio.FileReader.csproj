@@ -48,6 +48,7 @@
     <Compile Include="Authorizer.cs" />
     <Compile Include="Encrypter.cs" />
     <Compile Include="FileReaderEncrypted.cs" />
+    <Compile Include="FileReaderEncryptedJson.cs" />
     <Compile Include="FileReaderEncryptedText.cs" />
     <Compile Include="FileReaderEncryptedXml.cs" />
     <Compile Include="FileReaderJson.cs" />
