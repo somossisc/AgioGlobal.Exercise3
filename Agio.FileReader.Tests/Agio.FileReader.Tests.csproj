@@ -54,6 +54,7 @@
     <Compile Include="FileReaderXml_Tests.cs" />
     <Compile Include="Encrypter_Tests.cs" />
     <Compile Include="FileReaderEncryptedText_Tests.cs" />
+    <Compile Include="FileReaderSecurizedXml_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
