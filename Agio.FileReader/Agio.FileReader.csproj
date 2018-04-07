@@ -40,7 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IEncrypter.cs" />
     <Compile Include="Abstract\IFileReader.cs" />
+    <Compile Include="Abstract\IFileReaderEncrypted.cs" />
+    <Compile Include="Encrypter.cs" />
+    <Compile Include="FileReaderEncrypted.cs" />
+    <Compile Include="FileReaderEncryptedText.cs" />
     <Compile Include="FileReaderText.cs" />
     <Compile Include="FileReaderXml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

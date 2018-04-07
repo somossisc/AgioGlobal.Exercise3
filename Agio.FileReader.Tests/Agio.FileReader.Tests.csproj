@@ -52,6 +52,8 @@
     <Compile Include="FileReaderText_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FileReaderXml_Tests.cs" />
+    <Compile Include="Encrypter_Tests.cs" />
+    <Compile Include="FileReaderEncryptedText_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -75,6 +77,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="SampleFiles\Empty.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SampleFiles\ContentDecrypted.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleFiles\ContentEncrypted.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
